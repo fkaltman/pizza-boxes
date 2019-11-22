@@ -1,39 +1,76 @@
 <!DOCTYPE html>
+
 <head>
-  <title>Sugarbear Guide to Recyling</title>
+  <title>Recycling Pizza Boxes</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
     body {
-      margin: 120px; 
+      margin: 120px;
       text-align: center;
       color: brown;
       font-family: helvetica;
     }
-    p {
-      font-size: 25px;
+
+    h2 {
+      font-size: 2em;
     }
-    input {
-      border: 20;
-      padding: 10px;
-      font-size: 9px;
+
+    .unicorn {
+      color: rgb(236, 96, 119);
     }
-    input[type="submit"] {
-      border: 30;
-      margin: 20px;
-      background: green;
-      color: white;
-    }  
+
+    .main-box {
+      width: 50vw;
+    }
+
+    .dont-be-sad {
+      padding-top: 40vh;
+    }
+
+    .greasy {
+      width: 50vw;
+      /* padding-bottom: 20vh; */
+    }
+
+    .tear {
+      width: 50vw;
+    }
+
+    .learn {
+      padding-top: 40vh;
+      display: block;
+    }
   </style>
 </head>
+
 <body>
-    <p>This is a pizza box.</p>  
-    <p>It can only be recycled if it is not soiled.</p>
-  <img src="https://www.fcgov.com/recycling-item-images/img/pizza-box.jpg" width=500><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <p>This box is one of the rare unicorns that can be recycled:</p>
-  <img src="http://www.donovanbros.com/images/products/brown-corrugated-pizza-box-9-x-9-x-15inch1368.jpg" Width= 400>
-  <h6>Your pizza box may look like this if it had wax paper inside that soaked up all of the grease.</h6><br><br><br><br><br><br><br><br><br>
-  <h5>If your pizza box looks like this inside then it cannot be recycled:</h5><br>
-  <img src=https://d3hjf51r9j54j7.cloudfront.net/wp-content/uploads/sites/7/2018/12/pizza-box-620x330.jpg><br><br><br><br><br><br><br><br><br>
-  <a href ="https://www.sbs.com.au/topics/science/earth/article/2016/08/29/can-pizza-boxes-actually-be-recycled"> LEARN MORE</a>
-</form>
+  <div class="this-is-a-box-div">
+    <h1>This is a pizza box.</h1>
+    <img class="main-box" src="https://www.fcgov.com/recycling-item-images/img/pizza-box.jpg" />
+    <h2>A pizza box can only be recycled if it is not soiled.</h2>
+  </div>
+  <div class="dirty-example-div">
+    <h1>If your pizza box looks like this inside then it cannot be recycled:</h1>
+    <img class="greasy"
+      src=https://d3hjf51r9j54j7.cloudfront.net/wp-content/uploads/sites/7/2018/12/pizza-box-620x330.jpg> <h1
+      class="unicorn">This box is one of the rare unicorns <br>that can be recycled:</h1>
+  </div>
+  <div class="clean-box-div">
+    <img src="http://www.donovanbros.com/images/products/brown-corrugated-pizza-box-9-x-9-x-15inch1368.jpg" Width=400>
+    <h3 class="unicorn">Your pizza box may look like this if your pizza was not very greasy AND it had wax paper
+      inside that soaked up all of the grease. This is highly uncommon.</h3>
+  </div>
+  <div class="silver-lining">
+    <h2 class="dont-be-sad"> Don't be sad, most boxes have tops that are clean enough to be recycled. Just tear off the
+      clean top, recycle that part and throw the greasy bottom part away or compost it if that option is available to
+      you.
+    </h2>
+  </div>
+  <img class="tear" src="https://www.recyclebycity.com/thumb/1000/auto/pizza_box_greasybits_r_1.png">
+  <a class="learn"
+    href="https://www.sbs.com.au/topics/science/earth/article/2016/08/29/can-pizza-boxes-actually-be-recycled"> LEARN
+    MORE</a>
+  </form>
 </body>
+
 </html>
