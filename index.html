@@ -3,14 +3,13 @@
 <head>
   <title>Recycling Pizza Boxes</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Bowlby+One+SC&display=swap" rel="stylesheet">
   <style>
     body {
-      font-size: 1.5em;
-      margin: 120px;
-      padding: 0;
+      margin-top: 12vh;
+      padding: 0 6vw 0 6vw;
       text-align: center;
-      color: rgb(214, 97, 97);
+      color: salmon;
       font-family: helvetica;
       background: url("./transpizzaclear.png");
       background-repeat: no-repeat;
@@ -19,15 +18,17 @@
     }
 
     .unicorn {
-      color: rgb(236, 96, 119);
+      color:salmon;
+      padding: 0 40vw;
+    }
+
+    .unicorn2 {
+      color: salmon;
+      padding: 0 22vw 0 22vw;
     }
 
     .main-box {
       width: 50vw;
-    }
-
-    .dont-be-sad {
-      /* padding-top: 40vh; */
     }
 
     .greasy {
@@ -37,7 +38,6 @@
 
     .clean-box {
       width: 50vw;
-
     }
 
     .tear {
@@ -49,35 +49,72 @@
     .dirty-example-card,
     .clean-box-card,
     .silver-lining-card {
-      padding-bottom: 40vh;
+      padding-bottom: 36vh;
     }
 
     .dirty-example-card {
       color: cadetblue;
-      /* padding-top: 20vh; */
     }
 
     .silver-lining-card {
-      background-color: rgba(238, 190, 190, 0.6);
-      color: rgb(202, 136, 116);
-      padding: 60px;
+      background-color: rgba(224, 221, 221, 0.6);
+      color: rgb(204, 126, 118);
+      padding: 10vw;
     }
 
     .learn {
-      font-family: 'Bowlby One SC', cursive;
       padding-top: 40vh;
+      padding-bottom: 10vh;
       display: block;
       text-decoration: none;
       color: salmon;
     }
+
+    .dont-be-sad {
+      font-family: 'Bebas Neue', cursive;
+    }
+
+    @media only screen 
+  and (min-width: 850px){
+
+    .unicorn {
+      padding: 0 10vw;
+    }
+  
+    .main-box {
+      width: 70vw;
+    }
+
+    .greasy {
+      width: 70vw;
+      padding-top: 4vh;
+    }
+
+    .clean-box {
+      width: 70vw;
+    }
+
+    .this-is-a-box-card,
+    .dirty-example-card,
+    .clean-box-card {
+      padding-bottom: 30vh;
+    }
+
+    .silver-lining-card {
+      padding-bottom: 16vh;
+    }
+
+  }
+
+
   </style>
 </head>
 
 <body>
   <section class="this-is-a-box-card">
     <h1> This is a pizza box.</h1>
-    <h3>It can only be recycled if it is not soiled.</h3>
     <img class="main-box" src="./transbox.png" />
+    <h3>It can only be recycled if it is not soiled.</h3>
   </section>
   <section class="dirty-example-card">
     <h1>If your pizza box looks like this inside then it cannot be recycled:</h1>
@@ -85,19 +122,19 @@
       src="./greasyboxtrans.png"> </section>
       <section class="clean-box-card">
     <h1 class="unicorn">This box is one of the rare unicorns that can be recycled:</h1>
+    <h5 class="unicorn2">Your pizza box may look like this if your pizza was not very greasy AND it had wax paper
+      inside that soaked up all of the grease. This is highly uncommon.</h5>
     <img class="clean-box"
       src="./cleanpizzaboxtrans.png" Width=400>
-    <h5 class="unicorn">Your pizza box may look like this if your pizza was not very greasy AND it had wax paper
-      inside that soaked up all of the grease. This is highly uncommon.</h5>
   </section>
   <section class="silver-lining-card">
-    <h3 class="dont-be-sad"> I know you are keen on recycling. But don't be sad, most boxes have tops that are clean enough to be recycled. Just tear off the
-      clean top, recycle it and throw the greasy bottom part away.</h3>
-      <h5>**You can even compost the greasy parts it if that option is available to you.</h5>
+    <h3 class="dont-be-sad">Many boxes have tops that are clean enough to be recycled. <br> Just tear off the
+      top, recycle it and throw the greasy bottom part away.</h3>
+      <h5 class="dont-be-sad">**You can even compost the greasy parts it if that option is available to you**</h5>
     <img class="tear" src="https://www.recyclebycity.com/thumb/1000/auto/pizza_box_greasybits_r_1.png">
   </section>
   <a class="learn"
-    href="https://www.sbs.com.au/topics/science/earth/article/2016/08/29/can-pizza-boxes-actually-be-recycled" target="_blank"> click here to read more</a>
+    href="https://www.sbs.com.au/topics/science/earth/article/2016/08/29/can-pizza-boxes-actually-be-recycled" target="_blank"> click to read more</a>
   </form>
 </body>
 
