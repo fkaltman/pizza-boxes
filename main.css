@@ -1,0 +1,100 @@
+body {
+  margin-top: 12vh;
+  padding: 0 6vw 0 6vw;
+  text-align: center;
+  color: salmon;
+  font-family: helvetica;
+  background: url("./transpizzaclear.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.unicorn {
+  color:salmon;
+  padding: 0 40vw;
+}
+
+.unicorn2 {
+  color: salmon;
+  padding: 0 22vw 0 22vw;
+}
+
+.main-box {
+  width: 50vw;
+}
+
+.greasy {
+  width: 50vw;
+  padding-top: 4vh;
+}
+
+.clean-box {
+  width: 50vw;
+}
+
+.tear {
+  width: 50vw;
+  padding-top: 4vh;
+}
+
+.this-is-a-box-card,
+.dirty-example-card,
+.clean-box-card,
+.silver-lining-card {
+  padding-bottom: 36vh;
+}
+
+.dirty-example-card {
+  color: cadetblue;
+}
+
+.silver-lining-card {
+  background-color: rgba(224, 221, 221, 0.6);
+  color: rgb(204, 126, 118);
+  padding: 10vw;
+}
+
+.learn {
+  padding-top: 40vh;
+  padding-bottom: 10vh;
+  display: block;
+  text-decoration: none;
+  color: salmon;
+}
+
+.dont-be-sad {
+  font-family: 'Bebas Neue', cursive;
+}
+
+@media only screen 
+and (min-width: 850px){
+
+.unicorn {
+  padding: 0 10vw;
+}
+
+.main-box {
+  width: 70vw;
+}
+
+.greasy {
+  width: 70vw;
+  padding-top: 4vh;
+}
+
+.clean-box {
+  width: 70vw;
+}
+
+.this-is-a-box-card,
+.dirty-example-card,
+.clean-box-card {
+  padding-bottom: 30vh;
+}
+
+.silver-lining-card {
+  padding-bottom: 16vh;
+}
+
+}
